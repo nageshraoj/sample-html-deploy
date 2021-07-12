@@ -1,6 +1,6 @@
 resource "aws_s3_bucket" "demobucket" {
   bucket = var.s3bucket
-  region= var.app_region
+  region= "us-east-2"
   acl = "public-read"
   versioning {
     enabled = true
