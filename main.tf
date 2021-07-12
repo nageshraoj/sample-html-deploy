@@ -6,7 +6,6 @@ terraform {
         version = "~> 3.44"
     }
   }
-
 #   backend "s3" {
 #       bucket = "nagesh-071221"
 #       key = "workspace/terraform.tfstate"
